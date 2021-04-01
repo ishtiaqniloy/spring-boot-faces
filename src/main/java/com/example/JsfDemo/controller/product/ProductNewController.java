@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
 public class ProductNewController {
 
     private final ProductRepository productRepository;
+
     private Product product;
 
     public ProductNewController(ProductRepository productRepository) {
