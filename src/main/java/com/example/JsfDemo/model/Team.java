@@ -5,7 +5,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
@@ -16,8 +16,8 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Size(min = 1, max = 45)
-    @NotNull
+    @Size(max = 45)
+    @NotBlank
     private String name;
 
     @Size(max = 200)
