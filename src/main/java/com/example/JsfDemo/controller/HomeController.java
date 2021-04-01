@@ -1,4 +1,4 @@
-package com.dsi.JsfDemo.controller;
+package com.example.JsfDemo.controller;
 
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.el.ELBeanName;

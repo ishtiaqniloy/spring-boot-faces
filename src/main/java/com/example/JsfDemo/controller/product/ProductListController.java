@@ -1,7 +1,7 @@
-package com.dsi.JsfDemo.controller.product;
+package com.example.JsfDemo.controller.product;
 
-import com.dsi.JsfDemo.model.Product;
-import com.dsi.JsfDemo.repository.ProductRepository;
+import com.example.JsfDemo.model.Product;
+import com.example.JsfDemo.repository.ProductRepository;
 import org.ocpsoft.rewrite.annotation.Join;
 import org.ocpsoft.rewrite.annotation.RequestAction;
 import org.ocpsoft.rewrite.el.ELBeanName;

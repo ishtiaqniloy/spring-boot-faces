@@ -1,10 +1,9 @@
-package com.dsi.JsfDemo;
+package com.example.JsfDemo;
 
 
 import org.ocpsoft.rewrite.servlet.RewriteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -17,7 +16,7 @@ import java.util.EnumSet;
 
 //@SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan({"com.dsi.JsfDemo"})
+@ComponentScan({"com.example.JsfDemo"})
 public class JsfDemoApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {

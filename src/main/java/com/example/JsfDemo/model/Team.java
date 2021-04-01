@@ -1,4 +1,4 @@
-package com.dsi.JsfDemo.model;
+package com.example.JsfDemo.model;
 
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
